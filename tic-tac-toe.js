@@ -1,15 +1,35 @@
 // Write all your JavaScript code in this file!
 // You can use the namespace variable that's defined here.
 var namespace = "http://www.w3.org/2000/svg"
-var currentShape = "circle"
+var currentShape = "circle";
   function createCircle() {
     var canvas = document.getElementById("game-board")
    if (currentShape == "circle") {
     var circle = document.createElementNS(namespace, "circle")
-  circle.setAttribute("cx", 85)
-  circle.setAttribute("cy", 85)
-  circle.setAttribute("r", 20)
+  circle.setAttribute("cx", "85")
+  circle.setAttribute("cy", "85")
+  circle.setAttribute("r", "20")
   circle.setAttribute("fill", "blue")
-  canvas.appendChild("circle")
-  currentShape = "rect"
+  canvas.appendChild(circle)
+}
+}
+var currentShape = "circle";
+  function circleCreation() {
+    var canvas = document.getElementById("game-board")
+   if (circleCreation == "circle") {
+    var circleCreation = document.createElementNS(namespace, "circle")
+  circlo.setAttribute("cx", "170")
+  circlo.setAttribute("cy", "85")
+  circlo.setAttribute("r", "20")
+  circlo.setAttribute("fill", "blue")
+  canvas.appendChild(circle)
+}
+}
+var turn= "player1"
+function topLeft() {
+  if(turn == "player1") {
+    turn="player2"
+  }else{
+    turn="player2"
+  }
 }

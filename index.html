@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <svg id="game-board" width="80%" viewBox="0 0 300 300">
+    <svg id="game-board" width="80%" viewBox="20 10 300 300" style="background: black">
       <!-- Create all the shapes for your game board here! -->
 <rect x="45" y="50" width="80" height="70" fill="gold" onclick="createCircle()"/>
-<rect x="130" y="50" width="80" height="70" fill="silver" onclick="createCircle()"/>
+<rect x="130" y="50" width="80" height="70" fill="silver" onclick="circleCreation()"/>
 <rect x="215" y="50" width="80" height="70" fill="gold" onclick="createCircle()"/>
 <rect x="215" y="125" width="80" height="70" fill="silver" onclick="createCircle()"/>
 <rect x="130" y="125" width="80" height="70" fill="gold" onclick="createCircle()"/>
@@ -16,7 +16,7 @@
 <rect x="45" y="200" width="80" height="70" fill="gold"  onclick="createCircle()"/>
 <rect x="130" y="200" width="80" height="70" fill="silver" onclick="createCircle()"/>
 <rect x="215" y="200" width="80" height="70" fill="gold" onclick="createCircle()"/>
-<circle cx="170" cy="85" r="20" fill="blue" onclick="createShape()"/>
+
 <circle cx="255" cy="85" r="20" fill="red" onclick="createShape()"/>
 <circle cx="85" cy="160" r="20" fill="blue" onclick="createShape()"/>
 <circle cx="85" cy="230" r="20" fill="red" onclick="createShape()"/>
